@@ -24,8 +24,8 @@ github_username:  cthl
 
 # Build settings
 markdown: kramdown
-# theme: jekyll-theme-slate
-theme: minima
+theme: jekyll-theme-midnight
+# theme: minima
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
