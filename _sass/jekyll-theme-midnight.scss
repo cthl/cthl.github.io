@@ -213,13 +213,14 @@ dt {
       &.link {
         float: right;
         margin-left: 6px;
-        margin-right: 6px
+        margin-right: 6px;
       }
 
       &.title {
         float: left;
         margin-left: 0px;
-        font-size: 11px;
+        margin-top: 10px;
+        font-size: 24px;
       }
     }
   }
