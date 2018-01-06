@@ -10,3 +10,8 @@ My main research interests are:
 * Fluid flow in porous media with applications to hydrocarbon recovery
 
 Furthermore, I am also interested in the application of software engineering techniques in scientific software.
+
+![portrait]
+
+[portrait]: thiele.jpg
+{: height="250px"}
