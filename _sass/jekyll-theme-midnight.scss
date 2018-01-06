@@ -230,6 +230,11 @@ dt {
   bottom: 0;
 }
 
+#container {
+  min-height: 100%;
+  position: relative;
+}
+
 section {
   max-width:650px;
   padding: 30px 0px 50px 0px;
