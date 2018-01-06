@@ -75,13 +75,6 @@ strong {
   font-weight: normal;
 }
 
-.wrapper {
-  max-width:650px;
-  margin:0 auto;
-  position:relative;
-  padding: 0 20px;
-}
-
 section img {
   max-width: 100%;
 }
@@ -231,7 +224,10 @@ dt {
 
 #container {
   min-height: 100%;
+  max-width: 650px;
+  margin: 0 auto;
   position: relative;
+  padding: 0 20px;
 }
 
 section {
