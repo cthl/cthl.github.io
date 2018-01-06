@@ -225,11 +225,16 @@ dt {
   }
 }
 
+#container {
+  position: relative;
+  min-height: 100%;
+}
+
 #footer {
   position: fixed;
   bottom: 0;
   height: 160px;
-  width: 100%;
+  width: 650px;
 }
 
 #div_content {
