@@ -1,4 +1,4 @@
-## Welcome!<img align="right" height="200px" src="../thiele2.jpg"/>
+## Welcome!<img align="right" height="200px" hspace="10px" src="../thiele2.jpg"/>
 
 I am a graduate student in applied mathematics at Rice University.
 My main research interests are:
