@@ -19,15 +19,15 @@
 
   </head>
   <body>
-    <div id="container">
-      <div id="header">
-        <nav>
-          <li class="title">Christopher Thiele</li>
-          <li class="link_github"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
-        </nav>
-      </div>
+    <div id="header">
+      <nav>
+        <li class="title">Christopher Thiele</li>
+        <li class="link_github"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
+      </nav>
+    </div>
 
-      <section>
+    <section>
+      <div id="container">
         <div id="div_content">
           {{ content }}
         </div>
@@ -42,8 +42,8 @@
           <hr>
           <span class="credits left">Page by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>, hosted on GitHub Pages, theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
         </div>
-      </section>
-    </div>
+      </div>
+    </section>
 
     {% if site.google_analytics %}
       <script type="text/javascript">
