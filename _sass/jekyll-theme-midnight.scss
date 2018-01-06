@@ -225,20 +225,11 @@ dt {
   }
 }
 
-#container {
-  position: relative;
-  min-height: 100%;
-}
-
 #footer {
-  position: fixed;
-  bottom: 0;
+  position: relative;
+  margin-top: 10px;
   height: 160px;
   width: 650px;
-}
-
-#div_content {
-  height: 100%;
 }
 
 section {
