@@ -2,4 +2,5 @@
 layout: default
 ---
 
-{% include index.md %}
+{% capture md %}{% include index.md %}{% endcapture %}
+{{ md | markdownify }}
