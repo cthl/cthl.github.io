@@ -1,4 +1,4 @@
-## Welcome!
+## Welcome!<img align="right" height="250px" src="../thiele2.jpg"/>
 
 I am a graduate student in applied mathematics at Rice University.
 My main research interests are:
@@ -10,5 +10,3 @@ My main research interests are:
 * Fluid flow in porous media with applications to hydrocarbon recovery
 
 Furthermore, I am also interested in the application of software engineering techniques in scientific software.
-
-<img align="right" height="250px" src="../thiele2.jpg"/>
