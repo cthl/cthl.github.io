@@ -9,4 +9,4 @@ My main research interests are:
 * Scalable implementation of numerical software
 * Fluid flow in porous media with applications to hydrocarbon recovery
 
-Furthermore, I am also interested in the application of software engineering techniques in scientific software.
+I am also interested in the application of software engineering techniques in scientific software.
