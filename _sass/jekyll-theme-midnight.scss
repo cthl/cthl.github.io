@@ -218,8 +218,13 @@ dt {
   }
 }
 
-#footer {
+#div_content {
   position: relative;
+}
+
+#footer {
+  position: absolute;
+  bottom: 0;
 }
 
 #container {
