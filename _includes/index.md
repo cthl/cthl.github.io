@@ -11,4 +11,4 @@ My main research interests are:
 
 Furthermore, I am also interested in the application of software engineering techniques in scientific software.
 
-<img style="float: right;" height="250px" src="../thiele2.jpg">
+<img align="right" height="250px" src="../thiele2.jpg"/>
