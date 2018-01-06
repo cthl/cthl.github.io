@@ -25,24 +25,24 @@
           <li class="title">Christopher Thiele</li>
           <li class="link_github"><a href="{{ site.github.repository_url }}">View On GitHub</a></li>
         </nav>
-      </div><!-- end header -->
-
-      <div class="wrapper">
-        <section>
-          {{ content }}
-        
-          <div id="footer">
-            <hr>
-            <p align="center">
-              Christopher Thiele (&#099;&#116;&#051;&#055;&#032;[&#097;&#116;]&#032;&#114;&#105;&#099;&#101;&#046;&#101;&#100;&#117;)<br>
-              Department of Computational and Applied Mathematics, Rice University, Houston, TX<br>
-              DCH 3015<br>
-            </p>
-            <hr>
-            <span class="credits left">Page by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>, hosted on GitHub Pages, theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
-          </div>
-        </section>
       </div>
+
+      <section>
+        <div id="body">
+          {{ content }}
+        </div>
+ 
+        <div id="footer">
+          <hr>
+          <p align="center">
+            Christopher Thiele (&#099;&#116;&#051;&#055;&#032;[&#097;&#116;]&#032;&#114;&#105;&#099;&#101;&#046;&#101;&#100;&#117;)<br>
+            Department of Computational and Applied Mathematics, Rice University, Houston, TX<br>
+            DCH 3015<br>
+          </p>
+          <hr>
+          <span class="credits left">Page by <a href="{{ site.github.owner_url }}">{{ site.github.owner_name }}</a>, hosted on GitHub Pages, theme by <a href="https://twitter.com/michigangraham">mattgraham</a></span>
+        </div>
+      </section>
     </div>
 
     {% if site.google_analytics %}
