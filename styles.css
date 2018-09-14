@@ -67,6 +67,8 @@ body {
 
 a:link {
   color: #e8e8e8;
+  text-decoration: none;
+  border-bottom: 1px solid;
 }
 
 a:visited {
@@ -74,7 +76,7 @@ a:visited {
 }
 
 ul.publications {
-  padding-right: 16px;
+  padding-right: 32px;
 }
 
 .header {
@@ -100,7 +102,9 @@ ul.publications {
 .content {
   margin: 0;
   padding: 0;
+  padding-bottom: 32px;
   padding-left: 16px;
+  box-sizing: border-box;
 }
 
 iframe {
