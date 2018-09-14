@@ -3,11 +3,19 @@
   --fg_text: #e8e8e8;
   /* Default background color */
   --bg_default: #252525;
+  /* Default light background color */
+  --bg_default_light: #3f3f3f;
   /* Background color for navigation bar */
   --bg_navbar: #5a5a5a;
 
   /* Maximum page width */
   --max_width: 1080px;
+  /* Default padding from the left and right border */
+  --padding_default: 16px;
+}
+
+html {
+  background-color: var(--bg_default_light);
 }
 
 body {
@@ -18,14 +26,10 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 20px;
   /* Page geometry */
-  max-width: var(--max_width) !important;
-  margin: 0px auto !important;
-  float: none !important;
-}
-
-ul {
-  list-style-type: 
-  color: var(--green);
+  max-width: var(--max_width);
+  margin: 0px auto;
+  padding: 0;
+  float: none;
 }
 
 li.navbar {
@@ -38,6 +42,7 @@ li.navbar a {
   height: 48px;
   text-align: center;
   padding: 8px 8px;
+  cursor: pointer;
 }
 
 li.navbar a:hover {
@@ -62,19 +67,53 @@ ul.navbar {
   background-color: var(--bg_navbar);
 }
 
-h1.title {
-  color: var(--fg_text);
-  margin: 16px 0px;
+h1 {
+  margin-top: 0;
 }
 
-div.about {
-  max-width: 720px;
+h1.title {
+  padding-top: 16px;
+  height: 36px;
+  padding-left: var(--padding_default);
+}
+
+h2 {
+  padding-left: var(--padding_default);
+}
+
+iframe {
+  margin-top: 32px;
+  border: 0;
+  height: 100%;
+  width: 100%;
+  vertical-align: bottom;
+}
+
+div {
+  padding-left: var(--padding_default);
+}
+
+.iframe_container {
+  margin: 0;
+  top: 127px;
+  bottom: 100px;
+  position: absolute;
+  padding-left: 0;
+  width: 100%;
+  max-width: var(--max_width);
+  background-color: var(--bg_default);
+}
+
+.portrait {
+  float: right;
+  padding-left: 0;
+  padding-right: var(--padding_default);
 }
 
 .footer {
   position: fixed;
-  bottom: 0;
-  margin: 8px auto;
+  bottom: 8px;
+  left: auto;
   padding: 8px 0px;
   max-width: var(--max_width);
   width: 100%;
