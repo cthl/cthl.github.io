@@ -107,6 +107,22 @@ ul.publications {
   box-sizing: border-box;
 }
 
+.button {
+  border: none;
+  color: #e8e8e8;
+  background-color: #5a5a5a;
+  padding: 9px;
+  text-align: center;
+  display: inline-block;
+  font-size: 24px;
+  cursor: pointer;
+}
+
+.button a {
+  border: 0;
+  text-decoration: none;
+}
+
 iframe {
   margin: 0;
   padding: 0;
