@@ -20,11 +20,25 @@ body {
   min-height: 100%;
 }
 
-li.navbar {
+.navbar {
+  margin: 0;
+  padding: 0;
+  height: 48px;
+  overflow: hidden;
+  background-color: #5a5a5a;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+.navbar li {
   float: left;
 }
 
-li.navbar a {
+.navbar a {
   display: inline-block;
   font-size: 24px;
   height: 48px;
@@ -33,36 +47,34 @@ li.navbar a {
   cursor: pointer;
 }
 
-li.navbar a.left {
+.navbar a.left {
   /* Additional padding for first button */
   padding-left: 16px;
 }
 
-li.navbar a.right {
+.navbar a.right {
   /* Additional padding for last button */
   padding-right: 16px;
 }
 
-li.navbar a:hover {
+.navbar a:hover {
   background-color: #252525;
 }
 
-li.navbar a:link {
-  color: #e8e8e8;
+.navbar a:link {
   text-decoration: none;
 }
 
-li.navbar a:visited {
+a:link {
   color: #e8e8e8;
 }
 
-ul.navbar {
-  margin: 0;
-  padding: 0;
-  height: 48px;
-  list-style-type: none;
-  overflow: hidden;
-  background-color: #5a5a5a;
+a:visited {
+  color: #e8e8e8;
+}
+
+ul.publications {
+  padding-right: 16px;
 }
 
 .header {
