@@ -4,36 +4,34 @@
     <link rel="stylesheet" type="text/css" href="styles.css"/>
 
     <title>Christopher Thiele</title>
-
-    <script>
-      function show(page) {
-        var iframe = document.getElementById('main_frame');
-        iframe.src = page;
-      }
-    </script>
   </head>
 
   <body>
-    <h1 class="title">Christopher Thiele</h1>
-
-    <ul class="navbar">
-      <li class="navbar"><a onclick="show('home.html')">Home</a></li>
-      <li class="navbar"><a onclick="show('research.html')">Research</a></li>
-      <li class="navbar"><a onclick="show('publications.html')">Talks & Publications</a></li>
-      <li class="navbar"><a onclick="show('projects.html')">Projects</a></li>
-      <li class="navbar" style="float:right"><a href="https://www.github.com/cthl">GitHub</a></li>
-      <li class="navbar" style="float:right"><a>Resume/CV</a></li>
-    </ul>
-
-    <div class="iframe_container">
-      <iframe id="main_frame" src="home.html"></iframe>
-    </div>
+    <iframe src="header.html"></iframe>
     
-    <div class="footer">
-      Christopher Thiele (ct37 [at] rice.edu)<br>
-      Department of Computational and Applied Mathematics, Rice University, Houston, TX<br>
-      DCH 3015
+    <div class="content">
+    <h2>Welcome!</h2>
+
+    <div class="portrait">
+      <img src="thiele2.jpg" alt="Christopher Thiele" style="width:250px;height:250px">
+    </div>
+
+    <div>
+      <p>
+        I am a graduate student in computational and applied mathematics at Rice University.<br>
+        My main research interests are:<br>
+      </p>
+      <ul>
+        <li>Iterative linear and nonlinear solvers and preconditioners</li>
+        <li>Numerical methods for partial differential equations</li>
+        <li>Iterative linear solvers and preconditioners</li>
+        <li>Scalable implementation of numerical software</li>
+        <li>Fluid flow in porous media with applications to hydrocarbon recovery</li>
+      </ul>
+      <p>I am also interested in the application of software engineering techniques in scientific software.</p>
+    </div>
     </div>
   </body>
 </html>
+
 
