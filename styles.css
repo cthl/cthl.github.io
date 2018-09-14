@@ -33,6 +33,16 @@ li.navbar a {
   cursor: pointer;
 }
 
+li.navbar a.left {
+  /* Additional padding for first button */
+  padding-left: 16px;
+}
+
+li.navbar a.right {
+  /* Additional padding for last button */
+  padding-right: 16px;
+}
+
 li.navbar a:hover {
   background-color: #252525;
 }
@@ -48,7 +58,7 @@ li.navbar a:visited {
 
 ul.navbar {
   margin: 0;
-  padding: 0px 8px;
+  padding: 0;
   height: 48px;
   list-style-type: none;
   overflow: hidden;
