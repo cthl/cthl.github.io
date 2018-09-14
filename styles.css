@@ -1,0 +1,83 @@
+:root {
+  /* Default text color */
+  --fg_text: #e8e8e8;
+  /* Default background color */
+  --bg_default: #252525;
+  /* Background color for navigation bar */
+  --bg_navbar: #5a5a5a;
+
+  /* Maximum page width */
+  --max_width: 1080px;
+}
+
+body {
+  /* Colors */
+  color: var(--fg_text);
+  background-color: var(--bg_default);
+  /* Fonts */
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  /* Page geometry */
+  max-width: var(--max_width) !important;
+  margin: 0px auto !important;
+  float: none !important;
+}
+
+ul {
+  list-style-type: 
+  color: var(--green);
+}
+
+li.navbar {
+  float: left;
+}
+
+li.navbar a {
+  display: block;
+  font-size: 24px;
+  height: 48px;
+  text-align: center;
+  padding: 8px 8px;
+}
+
+li.navbar a:hover {
+  background-color: var(--bg_default);
+}
+
+li.navbar a:link {
+  color: var(--fg_text);
+  text-decoration: none;
+}
+
+li.navbar a:visited {
+  color: var(--fg_text);
+}
+
+ul.navbar {
+  margin: 0;
+  padding: 0px 8px;
+  height: 48px;
+  list-style-type: none;
+  overflow: hidden;
+  background-color: var(--bg_navbar);
+}
+
+h1.title {
+  color: var(--fg_text);
+  margin: 16px 0px;
+}
+
+div.about {
+  max-width: 720px;
+}
+
+.footer {
+  position: fixed;
+  bottom: 0;
+  margin: 8px auto;
+  padding: 8px 0px;
+  max-width: var(--max_width);
+  width: 100%;
+  background-color: var(--bg_navbar);
+  text-align: center;
+}
