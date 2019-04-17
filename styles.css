@@ -79,6 +79,10 @@ ul.publications {
   padding-right: 32px;
 }
 
+.publications li {
+  padding-bottom: 8px;
+}
+
 .header {
   padding-top: 16px;
   padding-left: 16px;
@@ -104,6 +108,7 @@ ul.publications {
   padding: 0;
   padding-bottom: 32px;
   padding-left: 16px;
+  padding-right: 16px;
   box-sizing: border-box;
 }
 
@@ -134,7 +139,5 @@ iframe {
 
 .portrait {
   float: right;
-  padding-left: 0;
-  padding-right: 16px;
 }
 
