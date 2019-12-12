@@ -41,7 +41,7 @@
         Familiarity with C, basic knowledge of Unix/Linux command line tools and Git. Key features of C will be revisited in class.
       </p>
       <p>
-        Students will required to create a <b>private</b> repository on GitHub for homework submissions (free for students, see <a href=https://education.github.com/benefits>here</a>).
+        Students will be required to create a <b>private</b> repository on GitHub for homework submissions (free for students, see <a href=https://education.github.com/benefits>here</a>).
       </p>
       <p>
         I highly recommend using a virtual machine (VM) for the homework, as the course requires software that students may find difficult to install, especially on MacOS and Windows (GCC, GDB, Valgrind, MPI, PETSc). A Linux-based VM with all required software is available <a href=https://rice.box.com/s/1fsjlvmved24ffkwujcw5m450eovpyqq>here</a>. It can be used with <a href=https://www.virtualbox.org>VirtualBox</a> on all major operating systems and requires about 5 GB of free disk space.
@@ -81,7 +81,7 @@
             the C++ code does not violate any interfaces specified in the homework problems. For example, if the task is to implement a function
             <p align=center><tt>double norm2(const double *vector, int size)</tt></p>
             you may implement that function in C++, but you may not change its signature to something like
-            <p align=center><tt>double norm2(const std::vector&lt;double&gt; vector)</tt>.</p>
+            <p align=center><tt>double norm2(const std::vector&lt;double&gt; &vector)</tt>.</p>
           </li>
         </ol>
       </p>
@@ -90,10 +90,11 @@
       <h3 id=sec_schedule>Schedule</h3>
 
       <h4>Week 1 (1/13 - 1/19):</h4>
-      Introduction and overview, setting up a virtual machine, review of C, Makefiles, and GDB
+      <p>Introduction and overview, setting up a virtual machine, review of C and GNU Make</p>
 
       <h4>Week 2 (1/20 - 1/26):</h4>
-      <i>No class on Monday (Martin Luther King Jr. Day)</i><br>
+      <p><i>No class on Monday (Martin Luther King Jr. Day)</i></p>
+      <p>Debugging with GDB, profiling with gprof</p>
 
       <a href=#top style="margin-left:8px"><small>▲top</small></a>
     </div>
